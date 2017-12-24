@@ -14,11 +14,8 @@ describe('let keyword', function() {
 
   it('let is block scoped', function() {
 
-    // Define x using the ket keyword in the right place so the test passes
+    // Define x using the let keyword in the right place so the test passes
       function doWorkWithLet(flag) {
-        if (flag) {
-          let x = 5;
-        }
         return x;
       }
 
